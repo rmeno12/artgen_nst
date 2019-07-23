@@ -2,61 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f84716b2-ad5f-4989-a30d-99d9125a4e86" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/created/cezanne rose.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/created/cezanne yosemite.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/created/gauguin canyon.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/created/gauguin rose.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/created/lichtenstein canyon.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/created/lichtenstein rose.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/created/picasso canyon.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/created/picasso eiffel.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/created/starrynight eiffel.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/created/starrynight stanford.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bigyosemite.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/canyon.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cezanne.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cezannebig.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/eiffel.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/firewatch.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/gauguin.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/lichtenstein.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/picasso.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/rose.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/stanford.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/starrynight.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/yosemite.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/120.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/140.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/160.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/180.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/200.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/220.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/260.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/280.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/300.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/320.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/340.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/360.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/380.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/420.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/440.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/460.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/480.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/60.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/80.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/generated_image.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artgen_nst.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/artgen.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nst_utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -68,14 +15,24 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="artgen.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="artgen.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artgen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+            <state relative-caret-position="770">
+              <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="2" column="98" lean-forward="false" selection-start-line="2" selection-start-column="98" selection-end-line="2" selection-end-column="98" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -127,6 +84,7 @@
         <option value="$USER_HOME$/Miniconda3/Lib/site-packages/matplotlib/image.py" />
         <option value="$PROJECT_DIR$/nst_utils.py" />
         <option value="$PROJECT_DIR$/artgen.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -317,6 +275,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="3862" height="2136" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2518558" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -326,7 +285,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971576" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -574,11 +533,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/artgen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+        <state relative-caret-position="770">
+          <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="2" column="98" lean-forward="false" selection-start-line="2" selection-start-column="98" selection-end-line="2" selection-end-column="98" />
+          <folding />
         </state>
       </provider>
     </entry>
