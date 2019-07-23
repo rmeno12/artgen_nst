@@ -5,7 +5,6 @@ import scipy.misc
 import matplotlib.pyplot as plt
 from PIL import Image
 from matplotlib.pyplot import imshow, imread
-# from scipy.ndimage import imread
 from nst_utils import *
 import numpy as np
 import tensorflow as tf
@@ -23,7 +22,6 @@ def compute_content_cost(a_C, a_G):
     J_content -- scalar that you compute using equation 1 above.
     """
 
-    ### START CODE HERE ###
     # Retrieve dimensions from a_G (≈1 line)
     m, n_H, n_W, n_C = a_G.get_shape().as_list()
 
@@ -31,9 +29,7 @@ def compute_content_cost(a_C, a_G):
     a_C_unrolled = tf.reshape(a_C, [m, n_H * n_W, n_C])
     a_G_unrolled = tf.reshape(a_G, [m, n_H * n_W, n_C])
 
-    # compute the cost with tensorflow (≈1 line)
     J_content = 1 / (4 * n_H * n_W * n_C) * tf.reduce_sum(tf.square(tf.subtract(a_C_unrolled, a_G_unrolled)))
-    ### END CODE HERE ###
 
     return J_content
 
@@ -47,9 +43,7 @@ def gram_matrix(A):
     GA -- Gram matrix of A, of shape (n_C, n_C)
     """
 
-    ### START CODE HERE ### (≈1 line)
     GA = tf.matmul(A, tf.transpose(A))
-    ### END CODE HERE ###
 
     return GA
 
@@ -64,7 +58,6 @@ def compute_layer_style_cost(a_S, a_G):
     J_style_layer -- tensor representing a scalar value, style cost defined above by equation (2)
     """
 
-    ### START CODE HERE ###
     # Retrieve dimensions from a_G (≈1 line)
     m, n_H, n_W, n_C = a_G.get_shape().as_list()
 
@@ -79,7 +72,6 @@ def compute_layer_style_cost(a_S, a_G):
     # Computing the loss (≈1 line)
     J_style_layer = 1 / (4 * n_C * n_C * (n_H * n_W) * (n_H * n_W)) * tf.reduce_sum(tf.square(tf.subtract(GS, GG)))
 
-    ### END CODE HERE ###
 
     return J_style_layer
 
@@ -144,9 +136,7 @@ def total_cost(J_content, J_style, alpha=10, beta=40):
     J -- total cost as defined by the formula above.
     """
 
-    ### START CODE HERE ### (≈1 line)
     J = alpha * J_content + beta * J_style
-    ### END CODE HERE ###
 
     return J
 
@@ -199,9 +189,7 @@ sess.run(model['input'].assign(style_image))
 J_style = compute_style_cost(model, STYLE_LAYERS)
 
 
-### START CODE HERE ### (1 line)
 J = total_cost(J_content, J_style, alpha=10, beta=40)
-### END CODE HERE ###
 
 
 # define optimizer (1 line)
@@ -213,26 +201,18 @@ train_step = optimizer.minimize(J)
 
 def model_nn(sess, input_image, num_iterations=200):
     # Initialize global variables (you need to run the session on the initializer)
-    ### START CODE HERE ### (1 line)
     sess.run(tf.global_variables_initializer())
-    ### END CODE HERE ###
 
     # Run the noisy input image (initial generated image) through the model. Use assign().
-    ### START CODE HERE ### (1 line)
     sess.run(model['input'].assign(input_image))
-    ### END CODE HERE ###
 
     for i in range(num_iterations):
 
         # Run the session on the train_step to minimize the total cost
-        ### START CODE HERE ### (1 line)
         sess.run(train_step)
-        ### END CODE HERE ###
 
         # Compute the generated image by running the session on the current model['input']
-        ### START CODE HERE ### (1 line)
         generated_image = sess.run(model['input'])
-        ### END CODE HERE ###
 
         # Print every 20 iteration.
         if i % 20 == 0:
