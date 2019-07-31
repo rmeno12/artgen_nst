@@ -149,11 +149,11 @@ tf.reset_default_graph()
 sess = tf.InteractiveSession()
 
 
-content_image = imread("images/bigyosemite.jpg")
+content_image = imread("images/scream.jpg")
 content_image = reshape_and_normalize_image(content_image)
 
 
-style_image = imread("images/cezannebig.jpg")
+style_image = imread("images/gauguin.jpg")
 style_image = reshape_and_normalize_image(style_image)
 
 
